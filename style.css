@@ -55,6 +55,7 @@ button{
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 button:hover{
@@ -90,8 +91,14 @@ section{
    font-size: 14px; 
 }
 
-.currency-value{
+.currency-value, .currency-value-to-convert{
     color: #555555;
     font-weight: 700;
     font-size: 20px;
+}
+
+.currency-img, .currency-img-to-convert{
+    width: 50px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius:30px;
 }
